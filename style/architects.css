@@ -204,7 +204,17 @@ main > section{
     filter: grayscale(100%)
 }
 
-
+/* footer styles */
+footer{
+    text-align: center;
+    background-color: rgba(255, 244, 231, 1);
+    padding: 39px 0 39px 0;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 216px;
+    font-size: 1.25rem;
+}
 
 /* Responsive media query */
 @media screen and (max-width: 576px){
@@ -264,7 +274,7 @@ main > section{
         gap: 50px;
     }
     #experience-badge{
-        margin-top: 20px;
-        margin-left: 20px;
+        margin-top: 0px;
+        margin-left: 0px;
     }
 }
